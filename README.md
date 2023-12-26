@@ -37,3 +37,7 @@
  
 ## *연구목적*
 + 본 연구는 lol(League of legend)의 데이터를 바탕으로 게임 내 다중 역할 경험을 고려한 이탈 예측 모형을 구축하고, 이를 바탕으로 개인화된 유저 관리 전략 및 시사점 제공을 목표로 함
+
+## *프레임워크*
+
+![image](https://github.com/shinho123/23.11.10-1st-Korean-Society-of-Industrial-Engineers/assets/105840783/b1e45f3b-2c25-4d22-868e-7c1b98efbff6)
