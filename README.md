@@ -1,7 +1,7 @@
 # 23.11.10-1st-Korean-Society-of-Industrial-Engineers
 대한산업공학회(UNIST) - 다중 역할 경험을 고려한 게임 유저 이탈 예측: 롤 게임을 중심으로, 1저자
 
-## 목차
+## *목차*
   1. 서론
   2. 선행연구
   3. 프레임워크
@@ -41,3 +41,25 @@
 ## *프레임워크*
 
 ![image](https://github.com/shinho123/23.11.10-1st-Korean-Society-of-Industrial-Engineers/assets/105840783/b1e45f3b-2c25-4d22-868e-7c1b98efbff6)
+
+## *연구결과*
+
+### Baseline, Suggested model 비교
+
+![image](https://github.com/shinho123/23.11.10-1st-Korean-Society-of-Industrial-Engineers/assets/105840783/5ab32f25-74cf-49b0-8fa1-c1a242631dc3)
+
++ 연구에서 제안한 모델의 경우 다중 역할 변수를 고려하지 않은 baseline model 보다 4개의 지표(Accuracy, Recall, Precision, F1-score) 대부분에서 좋은 성능을 보이고 있음
++ 즉, 게임 내에서 유저의 다중 역할 경험들이 실제 게임 이탈에 있어 중요 요인으로 작용하는 것을 알 수 있음
+
+### 데이터 샘플링 비교
+
+![image](https://github.com/shinho123/23.11.10-1st-Korean-Society-of-Industrial-Engineers/assets/105840783/6e0e6f8d-abb1-4f02-ab02-e08f8e83d720)
+
++ 오버샘플링(SMOTE)을 진행한 모델과 성능을 비교하였을 때, 오버샘플링을 진행한 모델의 성능이 근소우위로 더 높게 나타나고 있음
++ 하지만 두 모델간의 성능 차이가 크지 않은데, 이는 제안된 모델이 데이터의 불균형 문제를 잘처리하고 안정적인 예측 성능을 보이고 있는 것으로 사료됨
++ 따라서 추가로 샘플링 작업을 진행하지 않고 현재 제안된 모델을 그대로 사용하는 것이 적절한 
+
+## 변수 중요도 표(DT, RF, XGB, GB)
+
+![image](https://github.com/shinho123/23.11.10-1st-Korean-Society-of-Industrial-Engineers/assets/105840783/3046911e-7d61-405b-b24e-c9374f5b7194)
+
