@@ -73,7 +73,7 @@
 + 또한 제안한 모델의 경우 안정적인 예측 성능을 보여 추가적인 데이터 샘플링이 필요하지 않음
 
 ### 변수 중요도
-+ **유저 활동 변수 관점** : ‘summonerLevel(유저 레벨)’, ‘League_points(리그포인트)’, ‘magic_box_contents(마법 공학상자 획득 가능 개수’
++ **유저 활동 변수 관점** : ‘summonerLevel(유저 레벨)’, ‘League_points(리그포인트)’, ‘magic_box_contents(마법 공학상자 획득 가능 개수)’
 + **다중 역할 변수 관점** : ‘champion_roll_num(유저 챔피언 포지션 숫자)’, ‘user_cp_portion_marksman(원거리 딜러 활용 비율)’, ‘user_cp_portion_tank(탱커 활용 비율)'
 
 ### 연구 시사점
